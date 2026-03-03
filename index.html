@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brayan Téllez | Actuario y Científico de Datos</title>
+  <meta name="description" content="Portafolio profesional de Brayan Téllez." />
+  <link rel="icon" href="/favicon.ico" />
+  <!-- Fuentes Modernas: Inter y Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <!-- FontAwesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./styles.css?v=1">
+</head>
+
+<body>
+  <!-- Fondo animado interactivo -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Menú fijo -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#formacion">Formación</a></li>
+      <li><a href="#Student_Experience">Publicaciones</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#certificaciones">Certificaciones</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header id="inicio">
+    <img src="Brayan_Foto.jpg" alt="Retrato profesional de Brayan Téllez" class="profile-photo" />
+    <h1>Brayan Téllez</h1>
+    <h2 id="typing-text">Actuario · Científico de Datos</h2>
+    <div class="download-cv">
+      <button id="downloadCvBtn" type="button"><i class="fa-solid fa-file-pdf"></i> Descargar CV</button>
+    </div>
+  </header>
+
+  <section id="sobre-mi" class="about reveal">
+    <h2>SOBRE MÍ</h2>
+    <p>
+      Profesional de Business Intelligence orientado a resultados. Diseño y opero soluciones de analítica,
+      automatización contable y procesos de datos para generar valor medible. Aplico lenguajes de programación
+      como Python, SQL, Alteryx, Deepnote, Power BI para mejorar decisiones y eficiencias.
+    </p>
+  </section>
+
+  <section id="formacion" class="reveal">
+    <h2>FORMACIÓN</h2>
+    <div class="formacion-grid">
+      <!-- 1 -->
+      <div class="formacion-card">
+        <i class="fa-solid fa-graduation-cap formacion-icon"></i>
+        <div class="formacion-info">
+          <h4>Licenciatura en Actuaría (2022–2026)</h4>
+          <p>Facultad de Contaduría y Administración<br />Universidad Autónoma de Querétaro</p>
+        </div>
+      </div>
+
+
+      <div class="formacion-card">
+        <i class="fa-solid fa-laptop-code formacion-icon"></i>
+        <div class="formacion-info">
+          <h4>Diplomado en Analítica y Ciencia de Datos (2026)</h4>
+          <p>Facultad de Contaduría y Administración<br />Universidad Autónoma de Querétaro</p>
+        </div>
+      </div>
+
+
+      <a href="https://drive.google.com/file/d/1GCz5lHzYAMIUlLdPYEwgKHlXQT8YDZ0a/view?usp=sharing" target="_blank"
+        rel="noopener" class="formacion-card linked-card">
+        <i class="fa-solid fa-certificate formacion-icon"></i>
+        <div class="formacion-info">
+          <h4>Diplomado en Transformación Digital y Ciencia de Datos (2025)</h4>
+          <p>Facultad de Informática<br />Universidad Autónoma de Querétaro</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="Student_Experience" class="cases reveal">
+    <div class="cases__wrap">
+      <h3>EXPERIENCIA ESTUDIANTIL / PUBLICACIONES</h3>
+
+
+      <div class="exp-header" id="articulo-header">
+        <div class="exp-title">
+          <h4><i class="fa-solid fa-newspaper"></i> Autor Principal | Artículo Académico</h4>
+          <span class="exp-dates">Publicado 2024 | Revista Verano de Introducción UAQ</span>
+        </div>
+        <i class="fa-solid fa-chevron-down exp-icon"></i>
+      </div>
+
+
+      <div class="exp-content" id="articulo-content">
+        <p class="exp-desc" style="text-align: center;">
+          <b>“Avances de iniciativas ESG en México: un análisis contemporáneo”</b><br /><br />
+          Análisis e investigación orientada a la evaluación de impactos financieros y de sostenibilidad en las
+          corporaciones mexicanas. En esta investigación me apoyé significativamente en <b>Python</b> para realizar
+          procesos extractivos, limpieza de información y la evaluación directa del peso de estos indicadores sobre el costo de las acciones.
+        </p>
+        <div style="margin-top: 20px; text-align: center;">
+          <button id="downloadartBtn" type="button"><i class="fa-solid fa-up-right-from-square"></i> Ver artículo
+            completo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades" class="reveal">
+    <h2>HABILIDADES</h2>
+    <ul>
+      <li>Excel Avanzado</li>
+      <li>Alteryx</li>
+      <li>SQL</li>
+      <li>Python</li>
+      <li>Deepnote</li>
+      <li>R Studio</li>
+      <li>Power BI</li>
+      <li>Modelos Forecasting</li>
+      <li>ETL · RPA</li>
+      <li>AWS Athena</li>
+    </ul>
+  </section>
+
+  <section id="proyectos" class="projects reveal">
+    <h3>PROYECTOS</h3>
+    <ul>
+      <li>Dashboard de Indicadores Financieros en Power BI</li>
+      <li>Modelo ARIMA para predicción de EBITDA</li>
+      <li>Automatización de reportes con Alteryx, Python y Excel</li>
+    </ul>
+  </section>
+
+
+
+  <section id="experiencia" class="cases reveal">
+    <div class="cases__wrap">
+      <h3>EXPERIENCIA LABORAL</h3>
+
+      <div class="exp-header" id="cactiuz-header">
+        <div class="exp-title">
+          <h4><i class="fa-solid fa-laptop-code"></i> Data Analyst | CACTIUZ</h4>
+          <span class="exp-dates">Feb 2026 – Actualidad | Querétaro, Mexico</span>
+        </div>
+        <i class="fa-solid fa-chevron-down exp-icon"></i>
+      </div>
+
+
+      <div class="exp-content" id="cactiuz-content">
+        <p class="exp-desc">
+          Analista de Datos enfocado en el desarrollo de soluciones de Business Intelligence en <b>Power BI</b>. Mi
+          principal objetivo es transformar y modelar datos complejos procedentes de múltiples orígenes para generar
+          tableros interactivos que detonen resultados estratégicos y sirvan como base sólida para la toma de decisiones
+          directivas.
+        </p>
+      </div>
+
+      <div class="exp-header" id="autocom-header">
+        <div class="exp-title">
+          <h4><i class="fa-solid fa-briefcase"></i> Data Scientist | Grupo Autocom</h4>
+          <span class="exp-dates">Mar 2024 – Feb 2026 · 2 yrs | Querétaro, Mexico</span>
+        </div>
+        <i class="fa-solid fa-chevron-down exp-icon"></i>
+      </div>
+
+      <div class="exp-content" id="autocom-content">
+        <p class="exp-desc">
+          Científico de Datos con enfoque en analítica financiera, automatización y modelado predictivo, utilizando SQL,
+          Python, Alteryx y Deepnote para generar visibilidad, control y decisiones estratégicas.
+        </p>
+        <h5 class="exp-subtitle">Impacto y logros (Casos Resueltos):</h5>
+
+        <div class="case-grid">
+          <!-- 1 -->
+          <article class="case-card tilt-card">
+            <h4><i class="fa-solid fa-rocket"></i> Automatización Financiera</h4>
+            <ul>
+              <li><b>Impacto:</b> Automatización de procesos financieros clave (Estado de Resultados, CxC, CxP)</li>
+              <li><b>Acción:</b> Creación de Queries en SQL y su manipulación en Alteryx para reportes.</li>
+              <li><b>Resultado:</b> Reducción de tiempos operativos, <b>Diferencia $0</b> vs control.</li>
+            </ul>
+            <p class="case-meta"><b>Stack:</b> SQL, Python, Alteryx</p>
+          </article>
+
+          <!-- 2 -->
+          <article class="case-card tilt-card">
+            <h4><i class="fa-solid fa-chart-line"></i> Forecast y Modelado Predictivo</h4>
+            <ul>
+              <li><b>Impacto:</b> Modelos de forecast con Machine Learning para proyección diaria de unidades.</li>
+              <li><b>Desarrollo:</b> Apoyo directo en la planeación comercial y financiera.</li>
+              <li><b>Resultado:</b> Tableros actualizados (Inventario + Traspasos + Lead time).</li>
+            </ul>
+            <p class="case-meta"><b>Stack:</b> SQL, Alteryx, Deepnote y Power BI</p>
+          </article>
+
+          <!-- 3 -->
+          <article class="case-card tilt-card">
+            <h4><i class="fa-solid fa-chart-pie"></i> Unit Economics y Rentabilidad</h4>
+            <ul>
+              <li><b>Impacto:</b> Desarrollo del Unit Economics de Click Auto Finance (CAF) para análisis de
+                rentabilidad.</li>
+              <li><b>Acción:</b> ETL Balanzas→Athena, pólizas automáticas, desglose de ingresos y gastos.</li>
+              <li><b>Resultado:</b> Cierres a tiempo con visibilidad detallada.</li>
+            </ul>
+            <p class="case-meta"><b>Stack:</b> Python, Alteryx, S3/Athena, Excel</p>
+          </article>
+
+          <!-- 4 -->
+          <article class="case-card tilt-card">
+            <h4><i class="fa-solid fa-broom"></i> Extracción y Gobierno de Datos</h4>
+            <ul>
+              <li><b>Impacto:</b> Extracción, limpieza y preparación de datos desde múltiples fuentes.</li>
+              <li><b>Acción:</b> Habilitación de métricas financieras y operativas confiables (Master CxP).</li>
+              <li><b>Resultado:</b> Unificación de fuentes y menor tiempo de análisis.</li>
+            </ul>
+            <p class="case-meta"><b>Stack:</b> SQL, Athena, Alteryx</p>
+          </article>
+
+          <!-- 5 -->
+          <article class="case-card tilt-card">
+            <h4><i class="fa-solid fa-book"></i> Implementación bajo NIF</h4>
+            <ul>
+              <li><b>Impacto:</b> Modelos bajo NIF (C-4 nuevos y seminuevos, D-5, D-1, D-3, C-19 y C-16) mediante
+                workflows.</li>
+              <li><b>Acción:</b> Automatización en Alteryx de regulaciones contables.</li>
+              <li><b>Resultado:</b> Cuadres mensuales precisos con normativa.</li>
+            </ul>
+            <p class="case-meta"><b>Stack:</b> Alteryx, Contabilidad</p>
+          </article>
+
+          <!-- 6 -->
+          <article class="case-card tilt-card">
+            <h4><i class="fa-solid fa-briefcase"></i> Reporte de Clientes y Cobranza</h4>
+            <ul>
+              <li><b>Impacto:</b> Reporte de clientes con crédito activo y medios de contacto.</li>
+              <li><b>Acción:</b> Optimización de la estrategia de recuperación de cartera y control de unidades por
+                pagar.</li>
+              <li><b>Resultado:</b> Entrega a tiempo a tesorería evitando intereses.</li>
+            </ul>
+            <p class="case-meta"><b>Stack:</b> Monitoreo y Alertas</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="certificaciones" class="reveal">
+    <h2>CERTIFICACIONES</h2>
+    <div class="cert-grid">
+      <button id="downloadCGDABtn" type="button"><i class="fa-solid fa-bullseye"></i> Google Data Analytics</button>
+      <button id="downloadCPBIBtn" type="button"><i class="fa-solid fa-chart-column"></i> Power BI</button>
+      <button id="downloadCMEXCELBtn" type="button"><i class="fa-solid fa-book"></i> Microsoft Excel</button>
+    </div>
+  </section>
+
+  <section id="contacto" class="reveal">
+    <h2>CONTACTO</h2>
+
+    <div class="contact-grid">
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope contact-icon"></i>
+        <span class="ci-label">Correo</span>
+        <a href="mailto:brayted14@gmail.com">brayted14@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-phone contact-icon"></i>
+        <span class="ci-label">Teléfono</span>
+        <a href="tel:+527721056304">+52 772 105 6304</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-brands fa-linkedin contact-icon"></i>
+        <span class="ci-label">LinkedIn</span>
+        <a href="https://linkedin.com/in/brayan-téllez-del-ángel-09a845308" target="_blank" rel="noopener">/Brayan
+          Téllez</a>
+      </div>
+      <div class="contact-item">
+        <i class="fa-brands fa-github contact-icon"></i>
+        <span class="ci-label">GitHub</span>
+        <a href="https://github.com/brayant001" target="_blank" rel="noopener">/Brayan-GitHub</a>
+      </div>
+    </div>
+
+    <div class="contact-actions">
+      <button id="scheduleBtn" type="button">Agendar llamada</button>
+      <a class="btn-ghost" href="mailto:brayted14@gmail.com">Enviar correo</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Brayan Téllez. Todos los derechos reservados.</p>
+  </footer>
+
+
+  <button id="scrollTopBtn" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
