@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const targets = {
     downloadCvBtn: 'https://drive.google.com/file/d/12XKfC4eAFNbcy9nkUmZwGttM03L-2Emt/view?usp=sharing',
     downloadartBtn: 'https://drive.google.com/file/d/12flPZh-0wRGFLCqNi4QDK7eZlcF_Vy_H/view?usp=sharing',
+    downloadart2Btn: 'https://doi.org/10.70747/cr.v5i1.977',
     downloadCGDABtn: 'https://drive.google.com/file/d/1jE_dRaHqYMw575IVxFHFnR2EmDQMdIBs/view?usp=sharing',
     downloadCPBIBtn: 'https://drive.google.com/file/d/1U6zE20K8iSk3NlZD66C2MvVSKObVQWu8/view?usp=sharing',
     downloadCMEXCELBtn: 'https://drive.google.com/file/d/1vJpbIIpxnbbBYf04jf6_S6-mVfzd4LLz/view?usp=sharing',
@@ -141,10 +142,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-
+  
   setupAccordion('autocom-header', 'autocom-content');
   setupAccordion('cactiuz-header', 'cactiuz-content');
-  setupAccordion('articulo-header', 'articulo-content');
+  setupAccordion('articulo1-header', 'articulo1-content');
+  setupAccordion('articulo2-header', 'articulo2-content');
 
 
   const canvas = document.getElementById('bg-canvas');
