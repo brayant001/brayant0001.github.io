@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   const targets = {
-    downloadCvBtn: 'https://drive.google.com/file/d/12XKfC4eAFNbcy9nkUmZwGttM03L-2Emt/view?usp=sharing',
+    downloadCvBtn: 'https://drive.google.com/file/d/1TIO03R3LbEBuT7RCandO20BUaJWXqp9u/view?usp=sharing',
     downloadartBtn: 'https://drive.google.com/file/d/12flPZh-0wRGFLCqNi4QDK7eZlcF_Vy_H/view?usp=sharing',
     downloadart2Btn: 'https://doi.org/10.70747/cr.v5i1.977',
     downloadCGDABtn: 'https://drive.google.com/file/d/1jE_dRaHqYMw575IVxFHFnR2EmDQMdIBs/view?usp=sharing',
