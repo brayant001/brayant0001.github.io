@@ -287,7 +287,8 @@ section {
 }
 
 /* Botón Artículo */
-#downloadartBtn {
+#downloadartBtn,
+#downloadart2Btn {
   background: #00aaff;
   color: #002f6c;
   border: none;
@@ -303,13 +304,15 @@ section {
   user-select: none;
 }
 
-#downloadartBtn:hover {
+#downloadartBtn:hover,
+#downloadart2Btn:hover {
   background: #00e5ff;
   color: #001f3f;
   box-shadow: 0 8px 30px rgba(0, 230, 255, .9);
 }
 
-#downloadartBtn:hover::before {
+#downloadartBtn:hover::before,
+#downloadart2Btn:hover::before {
   transform: translateY(4px);
 }
 
