@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,11 +16,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="./styles.css?v=1">
 </head>
-
 <body>
   <!-- Fondo animado interactivo -->
   <canvas id="bg-canvas"></canvas>
-
   <!-- Menú fijo -->
   <nav class="navbar">
     <ul>
@@ -35,7 +32,6 @@
       <li><a href="#contacto">Contacto</a></li>
     </ul>
   </nav>
-
   <header id="inicio">
     <img src="Brayan_Foto.jpg" alt="Retrato profesional de Brayan Téllez" class="profile-photo" />
     <h1>Brayan Téllez</h1>
@@ -44,7 +40,6 @@
       <button id="downloadCvBtn" type="button"><i class="fa-solid fa-file-pdf"></i> Descargar CV</button>
     </div>
   </header>
-
   <section id="sobre-mi" class="about reveal">
     <h2>SOBRE MÍ</h2>
     <p>
@@ -53,7 +48,6 @@
       como Python, SQL, Alteryx, Deepnote, Power BI para mejorar decisiones y eficiencias.
     </p>
   </section>
-
   <section id="formacion" class="reveal">
     <h2>FORMACIÓN</h2>
     <div class="formacion-grid">
@@ -65,8 +59,6 @@
           <p>Facultad de Contaduría y Administración<br />Universidad Autónoma de Querétaro</p>
         </div>
       </div>
-
-
       <div class="formacion-card">
         <i class="fa-solid fa-laptop-code formacion-icon"></i>
         <div class="formacion-info">
@@ -74,8 +66,6 @@
           <p>Facultad de Contaduría y Administración<br />Universidad Autónoma de Querétaro</p>
         </div>
       </div>
-
-
       <a href="https://drive.google.com/file/d/1GCz5lHzYAMIUlLdPYEwgKHlXQT8YDZ0a/view?usp=sharing" target="_blank"
         rel="noopener" class="formacion-card linked-card">
         <i class="fa-solid fa-certificate formacion-icon"></i>
@@ -86,10 +76,36 @@
       </a>
     </div>
   </section>
-
   <section id="Student_Experience" class="cases reveal">
   <div class="cases__wrap">
     <h3>EXPERIENCIA ESTUDIANTIL / PUBLICACIONES</h3>
+
+    <!-- ARTÍCULO 3 — Capítulo de libro 2026 -->
+    <div class="exp-header" id="articulo3-header">
+      <div class="exp-title">
+        <h4><i class="fa-solid fa-book-open"></i> Coautor | Capítulo de Libro</h4>
+        <span class="exp-dates">Publicado 2026 | Comunicación Científica · DOI: 10.52501/cc.422</span>
+      </div>
+      <i class="fa-solid fa-chevron-down exp-icon"></i>
+    </div>
+    <div class="exp-content" id="articulo3-content">
+      <p class="exp-desc" style="text-align: center;">
+        <b>"Efectos de la educación en la determinación del ingreso: un análisis con datos de la ENIGH 2024"</b><br /><br />
+        Capítulo 8 en <i>La educación y la inequidad en tiempos de inteligencia artificial: casos de México, España y Ecuador</i>.<br />
+        Comunicación Científica (2026).<br /><br />
+        Investigación que examina el impacto de la escolaridad sobre los niveles de ingreso en México utilizando microdatos de la
+        <b>Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 2024</b>, aplicando modelos econométricos para cuantificar
+        los retornos educativos y su relación con la desigualdad en el contexto de la inteligencia artificial.
+      </p>
+      <div style="margin-top: 20px; text-align: center;">
+        <a href="https://doi.org/10.52501/cc.422" target="_blank" rel="noopener"
+           style="display: inline-block; text-decoration: none;">
+          <button type="button">
+            <i class="fa-solid fa-up-right-from-square"></i> Ver publicación completa
+          </button>
+        </a>
+      </div>
+    </div>
 
     <!-- ARTÍCULO 2  -->
     <div class="exp-header" id="articulo2-header">
@@ -131,10 +147,8 @@
           completo</button>
       </div>
     </div>
-
   </div>
   </section>
-
   <section id="habilidades" class="reveal">
     <h2>HABILIDADES</h2>
     <ul>
@@ -150,7 +164,6 @@
       <li>AWS Athena</li>
     </ul>
   </section>
-
   <section id="proyectos" class="projects reveal">
     <h3>PROYECTOS</h3>
     <ul>
@@ -159,13 +172,9 @@
       <li>Automatización de reportes con Alteryx, Python y Excel</li>
     </ul>
   </section>
-
-
-
   <section id="experiencia" class="cases reveal">
     <div class="cases__wrap">
       <h3>EXPERIENCIA LABORAL</h3>
-
       <div class="exp-header" id="cactiuz-header">
         <div class="exp-title">
           <h4><i class="fa-solid fa-laptop-code"></i> Data Analyst | CACTIUZ</h4>
@@ -173,8 +182,6 @@
         </div>
         <i class="fa-solid fa-chevron-down exp-icon"></i>
       </div>
-
-
       <div class="exp-content" id="cactiuz-content">
         <p class="exp-desc">
           Analista de Datos enfocado en el desarrollo de soluciones de Business Intelligence en <b>Power BI</b>. Mi
@@ -183,7 +190,6 @@
           directivas.
         </p>
       </div>
-
       <div class="exp-header" id="autocom-header">
         <div class="exp-title">
           <h4><i class="fa-solid fa-briefcase"></i> Data Scientist | Grupo Autocom</h4>
@@ -191,14 +197,12 @@
         </div>
         <i class="fa-solid fa-chevron-down exp-icon"></i>
       </div>
-
       <div class="exp-content" id="autocom-content">
         <p class="exp-desc">
           Científico de Datos con enfoque en analítica financiera, automatización y modelado predictivo, utilizando SQL,
           Python, Alteryx y Deepnote para generar visibilidad, control y decisiones estratégicas.
         </p>
         <h5 class="exp-subtitle">Impacto y logros (Casos Resueltos):</h5>
-
         <div class="case-grid">
           <!-- 1 -->
           <article class="case-card tilt-card">
@@ -210,7 +214,6 @@
             </ul>
             <p class="case-meta"><b>Stack:</b> SQL, Python, Alteryx</p>
           </article>
-
           <!-- 2 -->
           <article class="case-card tilt-card">
             <h4><i class="fa-solid fa-chart-line"></i> Forecast y Modelado Predictivo</h4>
@@ -221,7 +224,6 @@
             </ul>
             <p class="case-meta"><b>Stack:</b> SQL, Alteryx, Deepnote y Power BI</p>
           </article>
-
           <!-- 3 -->
           <article class="case-card tilt-card">
             <h4><i class="fa-solid fa-chart-pie"></i> Unit Economics y Rentabilidad</h4>
@@ -233,7 +235,6 @@
             </ul>
             <p class="case-meta"><b>Stack:</b> Python, Alteryx, S3/Athena, Excel</p>
           </article>
-
           <!-- 4 -->
           <article class="case-card tilt-card">
             <h4><i class="fa-solid fa-broom"></i> Extracción y Gobierno de Datos</h4>
@@ -244,7 +245,6 @@
             </ul>
             <p class="case-meta"><b>Stack:</b> SQL, Athena, Alteryx</p>
           </article>
-
           <!-- 5 -->
           <article class="case-card tilt-card">
             <h4><i class="fa-solid fa-book"></i> Implementación bajo NIF</h4>
@@ -256,7 +256,6 @@
             </ul>
             <p class="case-meta"><b>Stack:</b> Alteryx, Contabilidad</p>
           </article>
-
           <!-- 6 -->
           <article class="case-card tilt-card">
             <h4><i class="fa-solid fa-briefcase"></i> Reporte de Clientes y Cobranza</h4>
@@ -272,9 +271,6 @@
       </div>
     </div>
   </section>
-
-
-
   <section id="certificaciones" class="reveal">
     <h2>CERTIFICACIONES</h2>
     <div class="cert-grid">
@@ -283,10 +279,8 @@
       <button id="downloadCMEXCELBtn" type="button"><i class="fa-solid fa-book"></i> Microsoft Excel</button>
     </div>
   </section>
-
   <section id="contacto" class="reveal">
     <h2>CONTACTO</h2>
-
     <div class="contact-grid">
       <div class="contact-item">
         <i class="fa-solid fa-envelope contact-icon"></i>
@@ -310,21 +304,15 @@
         <a href="https://github.com/brayant001" target="_blank" rel="noopener">/Brayan-GitHub</a>
       </div>
     </div>
-
     <div class="contact-actions">
       <button id="scheduleBtn" type="button">Agendar llamada</button>
       <a class="btn-ghost" href="mailto:brayted14@gmail.com">Enviar correo</a>
     </div>
   </section>
-
   <footer>
     <p>© <span id="year"></span> Brayan Téllez. Todos los derechos reservados.</p>
   </footer>
-
-
   <button id="scrollTopBtn" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></button>
-
   <script src="script.js" defer></script>
 </body>
-
 </html>
