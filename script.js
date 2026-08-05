@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const targets = {
     downloadCvBtn: 'https://drive.google.com/file/d/1bYADs6s2ZN88R5zHn1Awn70xY0LCgnlX/view?usp=sharing',
     downloadartBtn: 'https://drive.google.com/file/d/12flPZh-0wRGFLCqNi4QDK7eZlcF_Vy_H/view?usp=sharing',
-    downloadart2Btn: 'https://doi.org/10.70747/cr.v5i1.977',
+    downloadart2Btn: 'https://cienciayreflexion.org/index.php/Revista/article/view/977',
     downloadart3Btn: 'https://doi.org/10.52501/cc.422',
     downloadCGDABtn: 'https://drive.google.com/file/d/1jE_dRaHqYMw575IVxFHFnR2EmDQMdIBs/view?usp=sharing',
     downloadCPBIBtn: 'https://drive.google.com/file/d/1U6zE20K8iSk3NlZD66C2MvVSKObVQWu8/view?usp=sharing',
